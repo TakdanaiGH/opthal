@@ -1,0 +1,16 @@
+# Ignore model and backbone directories
+backbones/
+models/
+
+# Ignore virtual environment inside src
+src/env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs & temp files
+
+# OS files
+.DS_Store
