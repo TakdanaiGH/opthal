@@ -1,0 +1,12 @@
+open_final_layer_backbone,backbone,embedding_dims,data_augmentation,episodes,best_epoch,best_val_loss,accuracy,precision,recall,f1_score,auc,experiment_id
+False,resnet50,"[512, 256]",True,2,13,0.5503,0.845,0.8557,0.83,0.8426,0.927,cf612aa0
+False,resnet50,"[512, 256]",False,2,14,0.435,0.925,0.9126,0.94,0.9261,0.9786,f94d8959
+False,resnet50,"[512, 256]",False,10,7,0.3454,0.915,0.8952,0.94,0.9171,0.9801,199d03d5
+False,vit,"[512, 256]",False,2,24,0.5694,1.0,1.0,1.0,1.0,1.0,7f6cd35a
+False,vit,"[512, 256]",False,2,24,0.5694,1.0,1.0,1.0,1.0,1.0,cc5c7dc2
+False,dinov2,"[256, 128]",False,5,26,0.6864,0.905,0.8932,0.92,0.9064,0.8956,c18768d8
+False,dinov2,"[128, 64]",False,5,24,0.5488,0.885,0.8291,0.97,0.894,0.854,15e9eb89
+False,dinov2,"[256, 128]",False,20,1,0.9403,0.91,0.8534,0.99,0.9167,0.9657,72bc5cf8
+False,dinov2,"[256, 128]",True,20,22,0.7702,0.82,0.754,0.95,0.8407,0.801,6617a7b1
+False,vit,"[256, 128]",False,10,4,0.8945,1.0,1.0,1.0,1.0,1.0,c7063828
+False,vit,"[256, 128]",True,5,1,0.8321,0.88,0.8393,0.94,0.8868,0.9581,0f46a3ef
